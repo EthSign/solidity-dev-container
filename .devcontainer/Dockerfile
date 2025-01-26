@@ -32,4 +32,4 @@ ENV PATH="/home/vscode/.bun/bin:${PATH}"
 
 # Install Foundry
 RUN curl -L https://foundry.paradigm.xyz | bash
-RUN /home/vscode/.foundry/bin/foundryup
+RUN /home/vscode/.foundry/bin/foundryup -i nightly
