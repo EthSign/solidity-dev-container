@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:25.04
 
 SHELL ["/bin/bash", "-l", "-c"]
 
@@ -32,4 +32,4 @@ ENV PATH="/home/vscode/.bun/bin:${PATH}"
 
 # Install Foundry
 RUN curl -L https://foundry.paradigm.xyz | bash
-RUN /home/vscode/.foundry/bin/foundryup -i nightly
+RUN /home/vscode/.foundry/bin/foundryup
