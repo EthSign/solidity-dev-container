@@ -9,11 +9,12 @@
         "juanblanco.solidity",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        "adpyke.codesnap"
+        "adpyke.codesnap",
+        "tamasfe.even-better-toml"
       ]
     }
   },
   "remoteUser": "vscode",
   "features": {},
-  "postCreateCommand": "chmod +x .devcontainer/init-foundry.sh && .devcontainer/init-foundry.sh && forge soldeer install"
+  "postCreateCommand": "forge soldeer install"
 }
