@@ -14,5 +14,6 @@
     }
   },
   "remoteUser": "vscode",
-  "features": {}
+  "features": {},
+  "postCreateCommand": "chmod +x .devcontainer/init-foundry.sh && .devcontainer/init-foundry.sh && forge soldeer install"
 }
